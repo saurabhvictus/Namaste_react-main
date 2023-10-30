@@ -73,15 +73,7 @@ const Body = () => {
           </button>
         </div>
 
-        <div className="search m-4 p-4 flex items-center">
-          <label> UserName : </label>
-          <input
-            className="border border-black p-1"
-            value={loggedInUser}
-            onChange={(e) => setUserName(e.target.value)}
-          />
-        </div>
-
+        
         <div className="search m-4 p-8">
           <button
             className="bg-green-100 hover:bg-green-300  text-black font-bold py-2 px-4 rounded-lg  "
@@ -92,7 +84,7 @@ const Body = () => {
               setfilterdRestaurant(filteredList);
             }}
           >
-            Top rated Restaurent
+            Top rated Restaurant
           </button>
         </div>
       </div>

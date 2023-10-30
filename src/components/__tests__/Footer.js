@@ -16,14 +16,14 @@ const Footer = () => {
 
         <div className='md:col-start-1 col-end-auto row-start-1 row-end-5'>
           <h2 className='text-2xl font-bold'> TastyTap</h2>
-          <h4 className='text-gray-300 my-4'>© 2023 made By Harsh Sahu</h4>
+          <h4 className='text-gray-300 my-4'>© 2023 made By Saurabh Singh</h4>
         </div>
 
         <div className='md-col-start-2'>
           <h2 className='text-lg font-bold'>Company</h2>
           <ul>
             <li className='my-4'>
-              <Link to='https://www.linkedin.com/in/harsh-sahu1/' target="_blank" className='text-gray-300 hover:text-white transition duration-300'>
+              <Link to='https://www.linkedin.com/in/saurabhvictus/' target="_blank" className='text-gray-300 hover:text-white transition duration-300'>
                 About
               </Link>
             </li>
